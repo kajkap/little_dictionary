@@ -1,0 +1,15 @@
+Function	a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.	https://www.tutorialspoint.com/python/python_functions.htm
+Parameter	a name used to specify what arguments a function will need when it is called. When a function is called, each parameter is assigned one of the argument values.	http://stackoverflow.com/questions/14924825/what-are-arguments-in-python
+Variable	a reserved memory location to store value.	https://www.tutorialspoint.com/python/python_variable_types.htm
+Argument	a value provided to a function when you call it.	http://stackoverflow.com/questions/14924825/what-are-arguments-in-python
+Dictionary	a way to store data just like a list, but instead of using only numbers to get the data, you can use almost anything. This lets you treat a dict like it's a database for storing and organizing data.	https://learnpythonthehardway.org/book/ex39.html
+Tuple	an immutable list. A tuple can not be changed in any way once it is created.	http://www.diveintopython.net/native_data_types/tuples.html
+ASCII table	a table of characters for computers. It is binary code used by electronic equipment to handle text using the English alphabet, numbers, and other common symbols. ASCII is an abbreviation for American Standard Code for Information Interchange.	https://simple.wikipedia.org/wiki/ASCII
+Module	a Python object with arbitrarily named attributes that you can bind and reference.	Simply, a module is a file consisting of Python code. A module can define functions, classes and variables. A module can also include runnable code.	https://www.tutorialspoint.com/python/python_modules.htm
+List	a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets.	https://www.tutorialspoint.com/python/python_lists.htm
+Set	a data type, which contains an unordered collection of unique and immutable objects.	http://www.python-course.eu/sets_frozensets.php
+Class	a way to take a grouping of functions and data and place them inside a container so you can access them with the . (dot) operator.	https://learnpythonthehardway.org/book/ex40.html
+Lambda	a tool for building anonymous functions (i.e. functions that are not bound to a name), or more precisely, for building function objects.	http://www.secnetix.de/olli/Python/lambda_functions.hawk
+For loop	a construct traditionally used when you have a piece of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order.	https://wiki.python.org/moin/ForLoop
+While loop	a construct used when a condition needs to be checked each iteration, or to repeat a piece of code forever.	https://wiki.python.org/moin/ForLoop
+Iteration	a general term for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration.	http://stackoverflow.com/questions/9884132/what-exactly-are-pythons-iterator-iterable-and-iteration-protocols
