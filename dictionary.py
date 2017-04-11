@@ -42,12 +42,14 @@ def search_explanation():
     """Print out the definition of the input word from the file"""
     my_dict = dictionary()
     appelation = input("\nEnter a word to see its definition: ")
+    occurence = 0
     for key in my_dict.keys():
         if key == appelation.capitalize():
             explanation = my_dict[key][0]
             root = my_dict[key][1]
             print("\n%s is %s\nSource: %s" % (key.upper(), explanation, root))
-    else:
+            occurence = 1
+    if occurence == 0:
         print("\nSorry, there is no such word in our dictionary.")
     print("\nPress enter to continue")
     input()
@@ -90,11 +92,15 @@ def search_by_letter():
         for word in available_words:
             print(word)
         word = input("\nChoose a word from the list above: ")
+        occurence = 0
         for key in my_dict.keys():
             if key == word.capitalize():
                 explanation = my_dict[key][0]
                 root = my_dict[key][1]
                 print("\n%s is %s\nSource: %s" % (key.upper(), explanation, root))
+                occurence = 1
+        if occurence == 0:
+            print("\nSorry, there is no such word in our dictionary.")
     else:
         print("\nSorry, there is any word for the letter %s." % letter)
     print("\nPress enter to continue")
